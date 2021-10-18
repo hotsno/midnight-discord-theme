@@ -1,12 +1,9 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
 
-/* 
-If you want to use this font, download and install it from here: https://cdn.discordapp.com/attachments/881344281024016405/884755124373827624/Quicksand_Regular_400.ttf
-And then uncomment the following:
+/* https://cdn.discordapp.com/attachments/881344281024016405/884755124373827624/Quicksand_Regular_400.ttf */
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: "Quicksand";
 } 
-*/
 
 /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
 :root {
@@ -107,6 +104,62 @@ And then uncomment the following:
 .folder-1hbNCn {
     background-color: rgba(0,0,0,0)
 }
+
+/*🠗 Hide Users 2.0 🠗*/
+
+.members-1998pB,
+.membersWrap-2h-GB4 {
+  border-radius: 20px 0 0 20px !important;
+  width: 60px;
+  min-width: 60px;
+  transition-property: width, min-width, box-shadow;
+  transition-duration: 350ms;
+}
+.members-1998pB:hover,
+.membersWrap-2h-GB4:hover {
+  width: 240px;
+  min-width: 240px;
+}
+.membersWrap-2h-GB4{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  box-shadow: none;
+}
+.membersWrap-2h-GB4:hover{
+  box-shadow: -5px 0 20px 0px #202225;
+}
+
+.searchResultsWrap-3-pOjs{
+  border-radius: 20px 0 0 20px !important;
+  width: 60px;
+  min-width: 60px;
+  transition-property: width, min-width, box-shadow;
+  transition-duration: 350ms;
+}
+
+.searchResultsWrap-3-pOjs:hover{
+  width: 540px;
+  min-width: 240px;
+}
+
+.searchResultsWrap-3-pOjs {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  box-shadow: none;
+}
+
+.searchResultsWrap-3-pOjs {
+  box-shadow: -5px 0 20px 0px #202225;
+}
+
+
+.chatContent-a9vAAp {
+  min-width: calc(100% - 60px);
+  max-width: calc(100% - 60px);
+}
+
   
 /* Hide right side buttons */
 .tutorialContainer-30WoTp,
